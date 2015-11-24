@@ -43,7 +43,7 @@ class GNoToolLengthOffset(GCodeCommand):
     pass
 
 class GAbsoluteMove(GCodeCommand):
-    "G0".
+    "G0."
     def __init__(self, line_number, text):
         super(GAbsoluteMove, self).__init__(line_number, text)
         self.x = self._get_axis('X')
