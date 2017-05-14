@@ -238,7 +238,7 @@ def main():
     commands = RemoveDuplicates().run(commands)
     commands = RemoveRedundant().run(commands)
     commands = RemoveRepeat().run(commands)
-    print "\n".join((i.text for i in commands))
+    print("\n".join((i.text for i in commands)))
 
 if __name__ == "__main__":
     main()
