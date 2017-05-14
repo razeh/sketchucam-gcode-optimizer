@@ -6,7 +6,6 @@
 # You may want to tweak the safe height parameter in RemoveRepeat.
 
 from collections import defaultdict
-import pprint
 import sys
 import math
 
